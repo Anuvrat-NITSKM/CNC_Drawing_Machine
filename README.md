@@ -21,6 +21,11 @@ Mechanical system design
 In this section of project, the structure of CNC plotter machine has been designed and modelling in solidwork software with desired dimensions and all parts of CNC machine will be achieved before implementation the hardware of actual CNC plotter machine. Before starting the design, there are many steps of criteria must be explained. Length of travel mean the linear movement of steppers motors that controls X, Y and Z axes. The left-right motion is controlled by X axis stepper motor, front-back motion controlled by Y axis
 stepper motor and the pen goes up and down by Z axis stepper motor controller. Finally, the length travel of CNC plotter machine that decided as 300 mm for X axis, 300 mm for Y axis and 15 mm up-down for Z axis. Figure 3 show CNC plotter machine design and modelling by solidwork.
 
+![Capture2](https://user-images.githubusercontent.com/74725425/109297277-c1922380-7857-11eb-9dc3-3bc65ebd471a.PNG)
+
+   Figure 3. CNC -Drawing Machine Solidwork Design.
+   
+
 
 
 
