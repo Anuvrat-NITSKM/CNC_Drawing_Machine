@@ -7,4 +7,5 @@ The world has become a high technology with a lot of things becoming smaller and
 
 Objectives:
 The objectives of this project are to design the CNC Plotter Machine and to modify open source software and hardware to control it.
+
 ![Capture1](https://user-images.githubusercontent.com/74725425/109291680-40369300-784f-11eb-9a6a-7614b414394a.PNG)
