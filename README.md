@@ -9,8 +9,11 @@ Objectives:
 The objectives of this project are to design the CNC Plotter Machine and to modify open source software and hardware to control it.
 
 ![Capture1](https://user-images.githubusercontent.com/74725425/109291680-40369300-784f-11eb-9a6a-7614b414394a.PNG)
-                   Figure 1. flow chart to implementation CNC plotter machine.
+Figure 1. flow chart to implementation CNC plotter machine.
                    
 In this section we will learn how to build and do experimental the project, method of this project is generally a guiding principle to handle the problem. The project implementation method is discussed briefly focusing on basic components. The framework must be clear to ensure that the project runs smoothly, and project objectives are capable of success. Figure 2 shows three subsystems of this CNC plotter machine; Mechanical system design, electronics system, and computer for software tools.
+
+![Capture3](https://user-images.githubusercontent.com/74725425/109292600-a1129b00-7850-11eb-84d7-c6f7e8763029.PNG)
+
 
 
