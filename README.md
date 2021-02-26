@@ -91,6 +91,7 @@ The output of the motor will be in the form of the rotation of the lead screw wi
 
 Electronics system and wiring:
 
+![FMSTBTKINU1G315](https://user-images.githubusercontent.com/74725425/109310605-c3191700-786a-11eb-8909-d46049c0659f.png)
 
 The wiring of the various components of electronics system is represented in the Fig.. The microcontroller of Arduino board is connected to the computer system through the USB serial port. The Stepper Motors of two axes (X, Y ) are connected with CNC shield driver board. D.C. Power supply is provided for all the components of electronics system.
 
