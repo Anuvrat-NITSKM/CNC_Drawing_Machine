@@ -11,10 +11,16 @@ The objectives of this project are to design the CNC Plotter Machine and to modi
 ![Capture1](https://user-images.githubusercontent.com/74725425/109291680-40369300-784f-11eb-9a6a-7614b414394a.PNG)
 
     Figure 1. flow chart to implementation CNC plotter machine.
-                   
+ 
+ MATERIAL AND METHODOLOGY OF PROJECT:                  
 In this section we will learn how to build and do experimental the project, method of this project is generally a guiding principle to handle the problem. The project implementation method is discussed briefly focusing on basic components. The framework must be clear to ensure that the project runs smoothly, and project objectives are capable of success. Figure 2 shows three subsystems of this CNC plotter machine; Mechanical system design, electronics system, and computer for software tools.
 
 ![Capture3](https://user-images.githubusercontent.com/74725425/109292600-a1129b00-7850-11eb-84d7-c6f7e8763029.PNG)
+
+Mechanical system design
+In this section of project, the structure of CNC plotter machine has been designed and modelling in solidwork software with desired dimensions and all parts of CNC machine will be achieved before implementation the hardware of actual CNC plotter machine. Before starting the design, there are many steps of criteria must be explained. Length of travel mean the linear movement of steppers motors that controls X, Y and Z axes. The left-right motion is controlled by X axis stepper motor, front-back motion controlled by Y axis
+stepper motor and the pen goes up and down by Z axis stepper motor controller. Finally, the length travel of CNC plotter machine that decided as 300 mm for X axis, 300 mm for Y axis and 15 mm up-down for Z axis. Figure 3 show CNC plotter machine design and modelling by solidwork.
+
 
 
 
