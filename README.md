@@ -81,13 +81,19 @@ Congratulations, the mechanical assembly has been completed.
 Arduino Uno R3
 Arduino Uno is microcontroller based on ATmega328P Atmel AVR family microcontroller (MCU). It is an open source software and hardware design and manufacture a single of microcontroller. It has 14 digital Input/output pins and 6 Analogue input can be sampled using on-chip ADC. By using open source can be programming Arduino Uno. It also has 6 PWM outputs multiplexed on to the digital IO pins. Figure 4 below shows the Arduino Uno R3 circuit.
 
+![Capture4](https://user-images.githubusercontent.com/74725425/109311091-5baf9700-786b-11eb-8573-a946199ab37d.PNG)
+
 CNC V3 Shield with A4988 stepper Driver Module and Heatsink for Arduino
 The Arduino CNC Shield makes it easy to get your CNC projects up and running in a few hours. It uses opensource computer code on Arduino to control 2 stepper motors using 2 pieces of A4988 Stepper Motor driver breakout board, with this CNC shield and Arduino Uno, can be build project including CNC routers. The purpose of this CNC shield to control on the three axes (X, Y and Z axes) of CNC plotter machine, meaning control on the stepper motors.
+
+![Capture5](https://user-images.githubusercontent.com/74725425/109311238-90bbe980-786b-11eb-84d9-960a5ad15901.PNG)
 
 Stepper Motor
 The digital pulse stepper can be converted into the movement of the pen with respect to the X, Y, Z axes directions. The stepper motor is a brushless motor that distributes full rotation in several equal steps [2]. The stepper motor in Fig. 6 is defined by the property of converting several drives to a specific increase in the position of the column. Each pulse moves the column through a fixed angle. This machine has used three stepper motors with a lead screw and two belts.
 
 The output of the motor will be in the form of the rotation of the lead screw with respect to the X, Y and Z axis.
+
+![image](https://user-images.githubusercontent.com/74725425/109311193-800b7380-786b-11eb-99f4-be683f362113.png)
 
 Electronics system and wiring:
 
