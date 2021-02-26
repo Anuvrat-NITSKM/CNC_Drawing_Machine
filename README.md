@@ -1,18 +1,18 @@
 # CNC-Drawing-Machine
-*Abstract:*
+## Abstract:
 This project shows how to design and building low cost Arduino plotter machine based on the open source hardware and software. The Arduino plotter machine has been dependent on the principle of Computer Numerical Control with limited area depends on the motion X, Y and Z axes. The objectives of this project are to design the Plotter. Basically, this plotter machine uses two nema 17 stepper motors for X and Y axis movement and a servo motor to control the movement of pen attached to plotter head. these three stepper motors are controlled by CNC V3 shield for movement (X, Y and Z axes). This machine’s movement on the X axis is 300 mm and Y axis is 300 mm. Length of travel means the linear movement of stepper motors that control for X, Y and Z axes from point to another point. The left and right movement controlled by X axis stepper motor, front-back movement controlled by Y axis stepper motor and the pen is up-down that is controlled by Z axis servo motor.
 
-#Introduction:
+## Introduction:
 The world has become a high technology with a lot of things becoming smaller and thinner. The fast-growing development of technology and manufacturing, Industrial requirement such as good and high precision quality has helped in developing the CNC machine plotter all of those can be achieved through machines that can be controlled by computers such as Computer Numerical Control (CNC) machine. To implement CNC plotter machine, several concepts must be understood such as: understanding fundamentals, Machine Mechanical design, CNC machine hardware, test each one of three axis stepper motors and connecting CNC Machine with the software tools and test it, Three axes of CNC plotter machine can do movement starting with three primary axes which are X, Y and Z axis. The Z axis is being paralleled with the X-axis.We must understand fundamental of the plotter machine, Machine design by solidwork software, implementation Machine hardware and wiring connection, Development software, test each one of three axes stepper motors, finally connect machine with Universal G code sender software tools and test Machine.
 
-#Objectives:
+## Objectives:
 The objectives of this project are to design the CNC Plotter Machine and to modify open source software and hardware to control it.
 
 ![Capture1](https://user-images.githubusercontent.com/74725425/109291680-40369300-784f-11eb-9a6a-7614b414394a.PNG)
 
     Figure 1. flow chart to implementation CNC plotter machine.
  
-#Bill of materials
+## Bill of materials
 
 2 nema 17 steppers (*)
 4 8mm smooth rods (two 400mm-long and two 320mm-long)
@@ -35,12 +35,12 @@ The objectives of this project are to design the CNC Plotter Machine and to modi
 1 12V 2A power supply
 1 USB cable
 1 felt tip pen (or many for more fun)
-#MATERIAL AND METHODOLOGY OF PROJECT:                  
+## MATERIAL AND METHODOLOGY OF PROJECT:                  
 In this section we will learn how to build and do experimental the project, method of this project is generally a guiding principle to handle the problem. The project implementation method is discussed briefly focusing on basic components. The framework must be clear to ensure that the project runs smoothly, and project objectives are capable of success. Figure 2 shows three subsystems of this CNC plotter machine; Mechanical system design, electronics system, and computer for software tools.
 
 ![Capture3](https://user-images.githubusercontent.com/74725425/109292600-a1129b00-7850-11eb-84d7-c6f7e8763029.PNG)
 
-#Mechanical system design
+## Mechanical system design
 In this section of project, the structure of CNC plotter machine has been designed and modelling in solidwork software with desired dimensions and all parts of CNC machine will be achieved before implementation the hardware of actual CNC plotter machine. Before starting the design, there are many steps of criteria must be explained. Length of travel mean the linear movement of steppers motors that controls X, Y and Z axes. The left-right motion is controlled by X axis stepper motor, front-back motion controlled by Y axis
 stepper motor and the pen goes up and down by Z axis stepper motor controller. Finally, the length travel of CNC plotter machine that decided as 300 mm for X axis, 300 mm for Y axis and 15 mm up-down for Z axis. Figure 3 show CNC plotter machine design and modelling by solidwork.
 
@@ -50,7 +50,7 @@ stepper motor and the pen goes up and down by Z axis stepper motor controller. F
 
 
 
-#Assembly:
+## Assembly:
 I recommend the following building sequence:
 
 1. Slide two LM8UU in each of the two longest smooth rods.
@@ -79,24 +79,24 @@ I recommend the following building sequence:
 
 Congratulations, the mechanical assembly has been completed.
 
-#Arduino Uno R3
+## Arduino Uno R3
 Arduino Uno is microcontroller based on ATmega328P Atmel AVR family microcontroller (MCU). It is an open source software and hardware design and manufacture a single of microcontroller. It has 14 digital Input/output pins and 6 Analogue input can be sampled using on-chip ADC. By using open source can be programming Arduino Uno. It also has 6 PWM outputs multiplexed on to the digital IO pins. Figure 4 below shows the Arduino Uno R3 circuit.
 
 ![Capture4](https://user-images.githubusercontent.com/74725425/109311091-5baf9700-786b-11eb-8573-a946199ab37d.PNG)
 
-#CNC V3 Shield with A4988 stepper Driver Module and Heatsink for Arduino
+## CNC V3 Shield with A4988 stepper Driver Module and Heatsink for Arduino
 The Arduino CNC Shield makes it easy to get your CNC projects up and running in a few hours. It uses opensource computer code on Arduino to control 2 stepper motors using 2 pieces of A4988 Stepper Motor driver breakout board, with this CNC shield and Arduino Uno, can be build project including CNC routers. The purpose of this CNC shield to control on the three axes (X, Y and Z axes) of CNC plotter machine, meaning control on the stepper motors.
 
 ![Capture5](https://user-images.githubusercontent.com/74725425/109311238-90bbe980-786b-11eb-84d9-960a5ad15901.PNG)
 
-#Stepper Motor
+## Stepper Motor
 The digital pulse stepper can be converted into the movement of the pen with respect to the X, Y, Z axes directions. The stepper motor is a brushless motor that distributes full rotation in several equal steps [2]. The stepper motor in Fig. 6 is defined by the property of converting several drives to a specific increase in the position of the column. Each pulse moves the column through a fixed angle. This machine has used three stepper motors with a lead screw and two belts.
 
 The output of the motor will be in the form of the rotation of the lead screw with respect to the X, Y and Z axis.
 
 ![image](https://user-images.githubusercontent.com/74725425/109311193-800b7380-786b-11eb-99f4-be683f362113.png)
 
-#Electronics system and wiring:
+## Electronics system and wiring:
 
 ![FMSTBTKINU1G315](https://user-images.githubusercontent.com/74725425/109310605-c3191700-786a-11eb-8909-d46049c0659f.png)
 
