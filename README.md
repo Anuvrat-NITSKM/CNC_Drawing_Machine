@@ -1,4 +1,9 @@
 # CNC-Drawing-Machine
+
+![IMG_20210104_151743](https://user-images.githubusercontent.com/74725425/109378210-b510d800-78f6-11eb-91e0-f8b327f027b8.JPG)
+
+
+
 ## Abstract:
 This project shows how to design and building low cost Arduino plotter machine based on the open source hardware and software. The Arduino plotter machine has been dependent on the principle of Computer Numerical Control with limited area depends on the motion X, Y and Z axes. The objectives of this project are to design the Plotter. Basically, this plotter machine uses two nema 17 stepper motors for X and Y axis movement and a servo motor to control the movement of pen attached to plotter head. these three stepper motors are controlled by CNC V3 shield for movement (X, Y and Z axes). This machine’s movement on the X axis is 300 mm and Y axis is 300 mm. Length of travel means the linear movement of stepper motors that control for X, Y and Z axes from point to another point. The left and right movement controlled by X axis stepper motor, front-back movement controlled by Y axis stepper motor and the pen is up-down that is controlled by Z axis servo motor.
 
@@ -82,12 +87,16 @@ Congratulations, the mechanical assembly has been completed.
 ## Arduino Uno R3
 Arduino Uno is microcontroller based on ATmega328P Atmel AVR family microcontroller (MCU). It is an open source software and hardware design and manufacture a single of microcontroller. It has 14 digital Input/output pins and 6 Analogue input can be sampled using on-chip ADC. By using open source can be programming Arduino Uno. It also has 6 PWM outputs multiplexed on to the digital IO pins. Figure 4 below shows the Arduino Uno R3 circuit.
 
-![Capture4](https://user-images.githubusercontent.com/74725425/109311091-5baf9700-786b-11eb-8573-a946199ab37d.PNG)
+![IMG_20201223_135807](https://user-images.githubusercontent.com/74725425/109378236-eb4e5780-78f6-11eb-90c4-8fe98c98f552.jpg)
 
 ## CNC V3 Shield with A4988 stepper Driver Module and Heatsink for Arduino
 The Arduino CNC Shield makes it easy to get your CNC projects up and running in a few hours. It uses opensource computer code on Arduino to control 2 stepper motors using 2 pieces of A4988 Stepper Motor driver breakout board, with this CNC shield and Arduino Uno, can be build project including CNC routers. The purpose of this CNC shield to control on the three axes (X, Y and Z axes) of CNC plotter machine, meaning control on the stepper motors.
 
-![Capture5](https://user-images.githubusercontent.com/74725425/109311238-90bbe980-786b-11eb-84d9-960a5ad15901.PNG)
+![IMG_20201223_135702](https://user-images.githubusercontent.com/74725425/109378246-0a4ce980-78f7-11eb-9708-e7803b4148bb.jpg)
+
+![IMG_20201223_135718](https://user-images.githubusercontent.com/74725425/109378255-23ee3100-78f7-11eb-9e94-9aa4e8828573.jpg)
+
+![IMG_20210105_143822](https://user-images.githubusercontent.com/74725425/109378261-2f415c80-78f7-11eb-89d8-067aa2d15730.jpg)
 
 ## Stepper Motor
 The digital pulse stepper can be converted into the movement of the pen with respect to the X, Y, Z axes directions. The stepper motor is a brushless motor that distributes full rotation in several equal steps [2]. The stepper motor in Fig. 6 is defined by the property of converting several drives to a specific increase in the position of the column. Each pulse moves the column through a fixed angle. This machine has used three stepper motors with a lead screw and two belts.
@@ -109,6 +118,11 @@ A three-wire cable will be coming from the servo and two four-wire cables come f
 Servo cable has to go to (red) +5V, (black) GND and signal (white or brown) to Digital pin 11. Servo cable is too short, so an 250mm extension cable will be needed.
 
 Each stepper motor goes to X and Y axis four pin headers on the CNCShield.
+
+![IMG_20201223_141248 (1)](https://user-images.githubusercontent.com/74725425/109378271-3c5e4b80-78f7-11eb-8f34-2d939324b375.jpg)
+
+![IMG_20210104_135214](https://user-images.githubusercontent.com/74725425/109378285-5435cf80-78f7-11eb-868c-46b23f51d55c.JPG)
+
 
 
 
