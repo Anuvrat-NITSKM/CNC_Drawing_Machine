@@ -1,9 +1,7 @@
-# CNC-Drawing-Machine
+# CNC Drawing Machine
 
 ![IMG_20210104_151743](https://user-images.githubusercontent.com/74725425/109378210-b510d800-78f6-11eb-91e0-f8b327f027b8.JPG)
 
-
-https://user-images.githubusercontent.com/74725425/109378577-b0015800-78f9-11eb-8824-a384689621f9.mp4
 
 
 ## Abstract:
@@ -125,8 +123,7 @@ Each stepper motor goes to X and Y axis four pin headers on the CNCShield.
 
 ![IMG_20210104_135214](https://user-images.githubusercontent.com/74725425/109378285-5435cf80-78f7-11eb-868c-46b23f51d55c.JPG)
 
-
-
+[Working Demo](https://user-images.githubusercontent.com/41531792/109394224-e7005980-794b-11eb-97d0-4c5a302842f6.mp4)
 
 
 
