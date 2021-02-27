@@ -3,6 +3,8 @@
 ![IMG_20210104_151743](https://user-images.githubusercontent.com/74725425/109378210-b510d800-78f6-11eb-91e0-f8b327f027b8.JPG)
 
 
+https://user-images.githubusercontent.com/74725425/109378577-b0015800-78f9-11eb-8824-a384689621f9.mp4
+
 
 ## Abstract:
 This project shows how to design and building low cost Arduino plotter machine based on the open source hardware and software. The Arduino plotter machine has been dependent on the principle of Computer Numerical Control with limited area depends on the motion X, Y and Z axes. The objectives of this project are to design the Plotter. Basically, this plotter machine uses two nema 17 stepper motors for X and Y axis movement and a servo motor to control the movement of pen attached to plotter head. these three stepper motors are controlled by CNC V3 shield for movement (X, Y and Z axes). This machine’s movement on the X axis is 300 mm and Y axis is 300 mm. Length of travel means the linear movement of stepper motors that control for X, Y and Z axes from point to another point. The left and right movement controlled by X axis stepper motor, front-back movement controlled by Y axis stepper motor and the pen is up-down that is controlled by Z axis servo motor.
