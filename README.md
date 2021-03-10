@@ -134,7 +134,7 @@ There are two types of programs to use in your computer (until someone creates o
 
 For the first part I use [Inscape(Version 0.92.3.0)](https://inkscape.org/release/inkscape-0.92.3/) free vector drawing program with a plugin I [hacked](https://github.com/misan/laser-gcode-exporter-inkscape-plugin). Install may be a bit tricky for the non tech savvy user.
 
-For the second part I use [UniversalSerialGCodeSender](https://github.com/winder/Universal-G-Code-Sender) Java program that allows you to load the file created with Inkscape and send it to the plotter.For running Universal Serial G-code Sender you first need to install latest version of [Java](https://www.java.com/en/)
+For the second part I use [UniversalSerialGCodeSender](https://github.com/winder/Universal-G-Code-Sender) Java program that allows you to load the file created with Inkscape and send it to the plotter.For running Universal Serial G-code Sender you first need to install latest version of [Java.](https://www.java.com/en/)
 
 You want to setup the proper scale for your machine, but that is not stored in GRBL firmware but on the Arduino UNO EEPROM memory. So you will need to set that right before starting to draw. (Following text comes courtesy of Erivelton user):
 
