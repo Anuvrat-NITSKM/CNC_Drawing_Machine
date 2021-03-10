@@ -121,7 +121,6 @@ Each stepper motor goes to X and Y axis four pin headers on the CNCShield.
 
 ![IMG_20201223_141248 (1)](https://user-images.githubusercontent.com/74725425/109378271-3c5e4b80-78f7-11eb-8f34-2d939324b375.jpg)
 
-![IMG_20210104_135214](https://user-images.githubusercontent.com/74725425/109378285-5435cf80-78f7-11eb-868c-46b23f51d55c.JPG)
 
 ## Load Arduino Firmware
 
@@ -133,9 +132,9 @@ Installing the software is better explained [here](https://github.com/grbl/grbl/
 
 There are two types of programs to use in your computer (until someone creates one that does both): one for creating the code for a given graphical design. And a second program to send the code just created so the plotter will draw it on paper.
 
-For the first part I use [Inscape(Version 0.92.3.0)](https://inkscape.org/release/inkscape-0.92.3/) free vector drawing program with a plugin I hacked. Install may be a bit tricky for the non tech savvy user.
+For the first part I use [Inscape(Version 0.92.3.0)](https://inkscape.org/release/inkscape-0.92.3/) free vector drawing program with a plugin I [hacked](https://github.com/misan/laser-gcode-exporter-inkscape-plugin). Install may be a bit tricky for the non tech savvy user.
 
-For the second part I use [UniversalSerialGCodeSender](https://github.com/winder/Universal-G-Code-Sender) Java program that allows you to load the file created with Inkscape and send it to the plotter.
+For the second part I use [UniversalSerialGCodeSender](https://github.com/winder/Universal-G-Code-Sender) Java program that allows you to load the file created with Inkscape and send it to the plotter.For running Universal Serial G-code Sender you first need to install latest version of [Java](https://www.java.com/en/)
 
 You want to setup the proper scale for your machine, but that is not stored in GRBL firmware but on the Arduino UNO EEPROM memory. So you will need to set that right before starting to draw. (Following text comes courtesy of Erivelton user):
 
@@ -144,6 +143,8 @@ You want to setup the proper scale for your machine, but that is not stored in G
 3. Considering that you used a 200-step motor, a 20-tooth pulley, and the GT2 belt (2mm pitch), the correct values for both parameters would be 80.
 4. If they are not with these values, type “$100=80 + Enter” on the terminal to adjust the X axis. Type “$101 = 80 + Enter” to adjust the Y axis.
 5. Ready, your machine will now draw exactly the same dimensions as your Inkscape drawing :-D
+
+![IMG_20210104_135214](https://user-images.githubusercontent.com/74725425/109378285-5435cf80-78f7-11eb-868c-46b23f51d55c.JPG)
 
 [Working Demo](https://user-images.githubusercontent.com/41531792/109394224-e7005980-794b-11eb-97d0-4c5a302842f6.mp4)
 
